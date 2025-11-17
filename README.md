@@ -21,7 +21,7 @@ The ESP module connects to the Proxmox host via HTTP request through the API and
 2. search and set these variables:
    - ssid (wifi name)
    - password (wifi password)
-   - proxmoxHost (your pxe dns hostname, often identical to the Proxmox internal instance)
+   - proxmoxHost (your pxe dns hostname, often identical to the Proxmox internal instance name)
    - nodeName (Proxmox internal instance name, often identical to the DNS hostname)
    - token (Here is a HowTo to get the API key: https://github.com/CREW8/ESP8266-Proxmox-API)
    - totalVMs (set to the highest vm id, It is assumed that the IDs start at 100)
