@@ -74,5 +74,5 @@ The ESP module connects to the Proxmox host via HTTP request through the API and
 1. Display sleep mode: adjust sleepTimeout to your needs
 2. predefine the VM list to reduce startup time
 3. add a red led thats lights up on power state changes (and remove the oled display?)
-4. totalVMs
+...
 
