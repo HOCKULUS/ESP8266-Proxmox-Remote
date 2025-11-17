@@ -1,5 +1,5 @@
 # ESP8266-Proxmox-Remote
-Tiny ESP8266 Remote with 128x64 OLED for Proxmox
+Tiny ESP8266-based remote control with 128x64 OLED for Proxmox, which can detect existing VMs on the PXE host and retrieve their power and lock status.
 
 ![](https://github.com/HOCKULUS/ESP8266-Proxmox-Remote/blob/5a12dc9f08c67870fae8e61c2bca5520daa3e0fa/01.jpeg?raw=true)
 
