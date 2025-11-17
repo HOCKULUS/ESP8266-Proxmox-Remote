@@ -8,7 +8,7 @@ Access everything without having to open an app on your phone or a pxe web inter
 - ESP8266
 - 128x64 OLED Display
 - 3 push buttons (at least 2)
-- wires to wire everything up (e.g. jump wires)
+- wires to wire everything up (e.g. 11 jump wires)
 - breadboard (400 points)
 
 
