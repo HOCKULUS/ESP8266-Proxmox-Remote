@@ -26,7 +26,7 @@ The ESP module connects to the Proxmox host via HTTP request through the API and
    - token (Here is a HowTo to get the API key: https://github.com/CREW8/ESP8266-Proxmox-API)
 3. add and install esp8266 board manager http://arduino.esp8266.com/stable/package_esp8266com_index.json
    (HowTo: https://github.com/esp8266/Arduino?tab=readme-ov-file#installing-with-boards-manager)
-5. add these librarys in arduino ide:
+5. add these librarys in ardurino ide:
    - https://github.com/ekstrand/ESP8266wifi?tab=readme-ov-file
    - https://github.com/adafruit/Adafruit-GFX-Library
    - https://github.com/adafruit/Adafruit_BusIO
