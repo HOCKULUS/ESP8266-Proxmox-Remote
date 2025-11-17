@@ -56,7 +56,7 @@ Access everything without having to open an app on your phone or a pxe web inter
    | D7 | Top |
    | 5V | Bottom |
    
-7. connect your esp8266 via usb, select your esp8266 and upload
+7. connect your esp8266 via usb, select your esp8266 com port and upload
 
 ## Usage
 1. select your vm with up and down buttons
