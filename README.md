@@ -12,7 +12,7 @@ Tiny ESP8266 Remote with 128x64 OLED for Proxmox
 
 
 ## Setup
-1. open ardurino ide
+1. open esp8266_PXE_Remote.ino in ardurino ide
 2. set the variables:
    - ssid (wifi name)
    - password (wifi password)
