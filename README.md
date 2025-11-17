@@ -28,6 +28,7 @@ Access everything without having to open an app on your phone or a pxe web inter
    - https://github.com/adafruit/Adafruit_SSD1306
    - https://github.com/thomasfredericks/Bounce2
 5. wire your esp8266 up:
+
    ESP -> OLED
    | ESP | OLED |
    |-----|------|
