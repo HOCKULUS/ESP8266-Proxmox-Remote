@@ -57,4 +57,8 @@ Access everything without having to open an app on your phone or a pxe web inter
    
 7. connect your esp8266 via usb, select your esp8266 and upload
 
-
+## Usage
+1. select your vm with up and down buttons
+2. hard stop or start with power/lock button
+3. lock vm by press & hold power/lock button to avoid unwanted power actions
+4. wake display after timeout with up and down button
