@@ -28,7 +28,7 @@ Access everything without having to open an app on your phone or a pxe web inter
    - https://github.com/adafruit/Adafruit_SSD1306
    - https://github.com/thomasfredericks/Bounce2
 5. wire your esp8266 up:
-   ### ESP -> OLED
+   ESP -> OLED
    | ESP | OLED |
    |-----|------|
    | 3V3 | VDD |
@@ -36,19 +36,19 @@ Access everything without having to open an app on your phone or a pxe web inter
    | D1 | SCK |
    | D1 | SDA |
    
-   ### ESP -> Button Up (optional)
+   ESP -> Button Up (optional)
    | ESP | Button |
    |-----|--------|
    | D5 | Top |
    | 5V | Bottom |
    
-   ### ESP -> Button Down
+   ESP -> Button Down
    | ESP | Button |
    |-----|--------|
    | D6 | Top |
    | 5V | Bottom |
    
-   ### ESP -> Button Power / Lock
+   ESP -> Button Power / Lock
    | ESP | Button |
    |-----|--------|
    | D7 | Top |
