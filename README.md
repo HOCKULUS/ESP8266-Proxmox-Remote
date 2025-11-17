@@ -16,7 +16,7 @@ The ESP module connects to the Proxmox host via HTTP request through the API and
 - breadboard (400 points)
 
 
-## Setup
+## Setup:
 1. open esp8266_PXE_Remote.ino in ardurino ide
 2. search and set these variables:
    - ssid (wifi name)
@@ -24,6 +24,7 @@ The ESP module connects to the Proxmox host via HTTP request through the API and
    - proxmoxHost (your pxe dns hostname, often identical to the Proxmox internal instance)
    - nodeName (Proxmox internal instance name, often identical to the DNS hostname)
    - token (Here is a HowTo to get the API key: https://github.com/CREW8/ESP8266-Proxmox-API)
+   - totalVMs (set to the highest vm id, It is assumed that the IDs start at 100)
 3. add and install esp8266 board manager http://arduino.esp8266.com/stable/package_esp8266com_index.json
    (HowTo: https://github.com/esp8266/Arduino?tab=readme-ov-file#installing-with-boards-manager)
 5. add these librarys in ardurino ide:
@@ -62,8 +63,16 @@ The ESP module connects to the Proxmox host via HTTP request through the API and
    
 7. connect your esp8266 via usb, select your esp8266 com port and upload
 
-## Usage
+## Usage:
 1. select your vm with up and down buttons
 2. hard stop or start with power/lock button
 3. lock vm by press & hold power/lock button to avoid unwanted power actions
 4. wake display after timeout with up or down button
+
+## Ideas:
+
+1. Display sleep mode: adjust sleepTimeout to your needs
+2. predefine the VM list to reduce startup time
+3. add a red led thats lights up on power state changes (and remove the oled display?)
+4. totalVMs
+
